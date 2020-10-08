@@ -1,0 +1,68 @@
+html{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+background: #CAF2F4;
+padding: 0.5px 0;
+border-bottom: 7px orange dotted;
+height:180px
+ }
+
+.caixa{ position: relative;
+        width: 1200px;
+        margin-bottom: 5px auto;}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+nav a{
+text-transform: uppercase;
+color: orange;
+
+}
+nav a:hover{
+    color: palevioletred;
+    text-decoration: underline;
+}
+  main{
+      background: palevioletred;
+      height: 400px;
+  }
+
+
+  .imagemhome{
+    float: left;
+    margin-right: 15px;
+    margin-top:30px;
+    margin-left: 15px;
+    width: 400px;
+    border: 5px  #CAF2F4  solid;
+      }
+h2 {
+    text-align:center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+ main p{
+    text-align: center;
+    margin: 30px;
+}
+
+footer{
+
+    background: #CAF2F4;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 7px orange dotted;
+    font-size: 13px;
+    padding: 20px;
+
+}
